@@ -5,7 +5,7 @@
 A small script that automatically connects the user to the lessons in Sferum according to given schedule. So that you can not attend lessons in person.
 
 ## How to run
-Install requierements with ```pip install -r requirements.txt```.
+Install requirements with ```pip install -r requirements.txt```.
 
 Replace ```SESSION_DATA``` in ```config.py``` with your session_data cookie from Sferum account. Then add in ```main.py``` your lessons with start time, end time and token from join link (ex. https://sferum.ru/?p=join_call_page&callId=sometoken).
 
@@ -16,4 +16,4 @@ lessons = [
 ]
 ```
 
-And launch ```main.py```.
+And launch ```python3 main.py```.
